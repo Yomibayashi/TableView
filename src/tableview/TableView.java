@@ -18,6 +18,7 @@ public class TableView extends Application {
     public void start(Stage primaryStage) throws Exception {
         AnchorPane pane = (AnchorPane)FXMLLoader.load(getClass().getResource("contactos.fxml"));
         Scene scene = new Scene(pane);
+        primaryStage.setTitle("Table View");
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setScene(scene);
         primaryStage.show();
